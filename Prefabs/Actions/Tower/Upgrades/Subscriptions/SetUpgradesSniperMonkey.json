@@ -1,0 +1,132 @@
+{
+    "<Subscribe>SetUpgradesSniperMonkey": {
+        "Subtype": "TowerUpgrade",
+
+        // First check if this tower is supposed to be upgraded (check against "this")
+        "<If>": {
+            "RepeatCount": 0,
+            "<Equal>": {
+                "_LHS_": "UpgradedTower", // Sent from the message
+                "_RHS_": "ObjectName"
+            },
+
+            // "Stack" variables needed for below checks
+            "Left": "Left",
+            "Right": "Right",
+            "Zero": 0,
+            "One": 1,
+            "Two": 2,
+            "Three": 3,
+
+            // Left upgrade path
+            "<If>LeftPath": {
+                "RepeatCount": 0,
+                "<Equal>": {
+                    "_LHS_": "ButtonChoice",
+                    "_RHS_": "Left"
+                },
+
+                "<If>FullMetalJacket": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "LeftPathSpec",
+                        "_RHS_": "Zero"
+                    },
+                    "FullMetalJacket": { "PrefabType": "Action" } // NOT FINISHED
+                },
+                "<If>PointFiveOh": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "LeftPathSpec",
+                        "_RHS_": "One"
+                    },
+                    "PointFiveOh": { "PrefabType": "Action" }
+                },
+                "<If>DeadlyPrecision": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "LeftPathSpec",
+                        "_RHS_": "Two"
+                    },
+                    "<GreaterThan>": {
+                        "_LHS_": "Three",
+                        "_RHS_": "RightPathSpec"
+                    },
+                    "DeadlyPrecision": { "PrefabType": "Action" }
+                },
+                "<If>CrippleMOAB": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "LeftPathSpec",
+                        "_RHS_": "Three"
+                    },
+                    "<GreaterThan>": {
+                        "_LHS_": "Three",
+                        "_RHS_": "RightPathSpec"
+                    },
+                    "CrippleMOAB": { "PrefabType": "Action" } // NOT FINISHED
+                },
+                "<IncrementInt>": {
+                    "RepeatCount": 0,
+                    "KeyToModify": "LeftPathSpec",
+                    "IncrementAmount": 1
+                }
+            },
+
+            // Right upgrade path
+            "<If>RightPath": {
+                "RepeatCount": 0,
+                "<Equal>": {
+                    "_LHS_": "ButtonChoice",
+                    "_RHS_": "Right"
+                },
+
+                "<If>FasterFiring": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "RightPathSpec",
+                        "_RHS_": "Zero"
+                    },
+                    "FasterFiring": { "PrefabType": "Action" }
+                },
+                "<If>NightVisionGoggles": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "RightPathSpec",
+                        "_RHS_": "One"
+                    },
+                    "NightVisionGoggles": { "PrefabType": "Action" }
+                },
+                "<If>SemiAutomaticRifle": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "RightPathSpec",
+                        "_RHS_": "Two"
+                    },
+                    "<GreaterThan>": {
+                        "_LHS_": "Three",
+                        "_RHS_": "LeftPathSpec"
+                    },
+                    "SemiAutomaticRifle": { "PrefabType": "Action" }
+                },
+                "<If>SupplyDrop": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "RightPathSpec",
+                        "_RHS_": "Three"
+                    },
+                    "<GreaterThan>": {
+                        "_LHS_": "Three",
+                        "_RHS_": "LeftPathSpec"
+                    },
+                    "SupplyDrop": { "PrefabType": "Action" } // NOT WRITTEN
+                },
+                "<IncrementInt>": {
+                    "RepeatCount": 0,
+                    "KeyToModify": "RightPathSpec",
+                    "IncrementAmount": 1
+                }
+            }
+        }
+    }
+}

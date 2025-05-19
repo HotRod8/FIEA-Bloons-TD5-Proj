@@ -1,0 +1,17 @@
+{
+    "<Bloon>LeadBloon": {
+        "TextureFileName": "Content/Assets/BloonSprites/Lead.png",
+        "Rank": 7,
+        "Speed": 1.0,
+        "RBE": 23,
+        "BloonChildren": [
+            "BlackBloon"
+        ],
+        "NumberOfChildrenToSpawn": [
+            2
+        ],
+        "_BloonResistances_": [
+            "Sharp"
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "<Tower>BombTower": {
+        "TextureFileName": "Content/Assets/ShopButtonUISprites/InGameSprites/ShopSprite5.png", // needs to be updated
+        "AttackSpeed": 630,
+        "Range": 150.0, //medium...? tweak this
+        "Pierce": 40,
+        "Damage": 1,
+        "DamageRange": 10.0,
+        "DamageTypes": [ "Explosion" ],
+        "ProjectileName": "Shuriken",
+        "IsBomb": 1,
+
+        // Costs + Upgrade info
+        "TowerCost": 650,
+        "UpgradesLeftName": [ "Extra Range", "Bigger Bombs", "Missile Launcher", "Bloon Impact" ],
+        "UpgradesRightname": [ "Frag Bombs", "Cluster Bombs", "MOAB Mauler", "MOAB Assassin" ],
+        "UpgradesLeftCost": [ 200, 300, 0, 0 ],
+        "UpgradesRightCost": [ 400, 400, 0, 0 ],
+        "UpgradesLeftFlavorText": [
+            "Gives tower longer attack range.",
+            "Bombs hit a larger area.",
+            "Missiles fly faster and further, popping more bloons and have higher velocity.",
+            "Impacts from this tower become so violent, bloons become stunned for a short time when they are hit."
+        ],
+        "UpgradesRightFlavorText": [
+            "Each explosion throws out 8 sharp fragments that pop even more bloons.",
+            "Throws out secondary bombs instead of frags- causing widespread explosive poppage.",
+            "MOAB Maulers are special missiles that wreak havoc on M.O.A.B-class bloons, inflicting 10x damage.",
+            "Special Ability: Super deadly missiles seek out and instantly destroys the nearest MOAB-Class Bloon. Does 1000 damage to ZOMGs instead of destroying them."
+        ],
+
+        "UpgradesLeftSpritePaths": [
+            "Content/Assets/Towers/Upgrades/BombTowerUpgrades/Left/1.png",
+            "Content/Assets/Towers/Upgrades/BombTowerUpgrades/Left/2.png",
+            "Content/Assets/Towers/Upgrades/BombTowerUpgrades/Left/3.png",
+            "Content/Assets/Towers/Upgrades/BombTowerUpgrades/Left/4.png"
+        ],
+        "UpgradesRightSpritePaths": [
+            "Content/Assets/Towers/Upgrades/BombTowerUpgrades/Right/1.png",
+            "Content/Assets/Towers/Upgrades/BombTowerUpgrades/Right/2.png",
+            "Content/Assets/Towers/Upgrades/BombTowerUpgrades/Right/3.png",
+            "Content/Assets/Towers/Upgrades/BombTowerUpgrades/Right/4.png"
+        ],
+
+        // Upgrades
+        "SetUpgradesBombTower": { "PrefabType": "Action" },
+
+        // Behavior
+        "FireBombAtBloon": { "PrefabType": "Action" }
+
+
+    }
+}

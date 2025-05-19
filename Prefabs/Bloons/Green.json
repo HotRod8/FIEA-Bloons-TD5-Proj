@@ -1,0 +1,14 @@
+{
+    "<Bloon>GreenBloon": {
+        "TextureFileName": "Content/Assets/BloonSprites/Green.png",
+        "Rank": 2,
+        "Speed": 1.8,
+        "RBE": 3,
+        "BloonChildren": [
+            "BlueBloon"
+        ],
+        "NumberOfChildrenToSpawn": [
+            1
+        ]
+    }
+}

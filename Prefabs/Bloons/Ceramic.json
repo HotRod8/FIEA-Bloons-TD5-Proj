@@ -1,0 +1,18 @@
+{
+    "<Bloon>CeramicBloon": {
+        "TextureFileName": "Content/Assets/BloonSprites/Ceramic.png",
+        "Rank": 10,
+        "Health": 10,
+        "Speed": 2.5,
+        "RBE": 104,
+        "BloonChildren": [
+            "RainbowBloon"
+        ],
+        "NumberOfChildrenToSpawn": [
+            2
+        ],
+        "_BloonResistances_": [
+            "Glue"
+        ]
+    }
+}

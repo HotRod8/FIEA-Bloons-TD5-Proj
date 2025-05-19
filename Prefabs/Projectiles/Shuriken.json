@@ -1,0 +1,14 @@
+{
+    "<Projectile>Shuriken": {
+        //"Category": "Projectiles",
+        "TextureFileName": "Content/Assets/ProjectileSprites/Shuriken.png",
+        "LifeSpan": 5.0,
+        "Speed": 950.0,
+        "UnitVector": "vec4(1,0,0,0)",
+        "Size": 1.0,
+        "Type": 0,
+        "_ProjDamageTypes_": [
+            "Normal"
+        ]
+    }
+}

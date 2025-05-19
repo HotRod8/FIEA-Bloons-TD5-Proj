@@ -1,0 +1,20 @@
+{
+    "<Bloon>ZebraBloon": {
+        "TextureFileName": "Content/Assets/BloonSprites/Zebra.png",
+        "Rank": 8,
+        "Speed": 1.8,
+        "RBE": 23,
+        "BloonChildren": [
+            "BlackBloon",
+            "WhiteBloon"
+        ],
+        "NumberOfChildrenToSpawn": [
+            1,
+            1
+        ],
+        "_BloonResistances_": [
+            "Explosion",
+            "Freeze"
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "<ActionList>FireAtClosestBloon": {
+        // Needs an outer Delayed Action for attack speed
+        "<DelayedAction>": {
+            "DelayVar": "AttackSpeed",
+
+            "<ActionList>": {
+                "RepeatCount": 0,
+                "<DetermineClosestBloon>": {
+                    "RepeatCount": 0,
+                    "ReturnTarget": "CurrentTarget"
+                },
+                "<If>": {
+                    "RepeatCount": 0,
+                    "<NotEqual>": {
+                        "_LHS_": "CurrentTarget",
+                        "_RHS_": "NullPtr"
+                    },
+                    "<RotateClosestBloon>": {
+                        "RepeatCount": 0
+                    },
+                    "<DelayedAction>": {
+                        "RepeatCount": 0,
+                        "Delay": 10,
+                        "RequestedDelay": 0,
+                        "<FireVisualProjectile>": {
+                            "RepeatCount": 0,
+                            "ReturnTarget": "RequestedDelay"
+                        },
+                        "<SendMessageAction>": {
+                            "Subtype": "BloonHitscan",
+                            "RepeatCount": 0,
+
+                            "CurrentTarget{}": "",
+                            "Pierce{}": "",
+                            "Damage{}": "",
+                            "DamageTypes{}": ""
+                        }
+
+
+                    }
+                        
+                    // Add an increment here for ActionList's repeat count maybe?
+                }
+            }
+        }
+    }
+}

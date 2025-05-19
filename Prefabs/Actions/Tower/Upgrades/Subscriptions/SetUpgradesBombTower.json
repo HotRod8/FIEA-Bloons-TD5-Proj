@@ -1,0 +1,84 @@
+{
+    "<Subscribe>SetUpgradesBombTower": {
+        "Subtype": "TowerUpgrade",
+
+        // First check if this tower is supposed to be upgraded (check against "this")
+        "<If>": {
+            "RepeatCount": 0,
+            "<Equal>": {
+                "_LHS_": "UpgradedTower", // Sent from the message
+                "_RHS_": "ObjectName"
+            },
+
+            // "Stack" variables needed for below checks
+            "Left": "Left",
+            "Right": "Right",
+            "Zero": 0,
+            "One": 1,
+            "Two": 2,
+            "Three": 3,
+
+            // Left upgrade path
+            "<If>LeftPath": {
+                "RepeatCount": 0,
+                "<Equal>": {
+                    "_LHS_": "ButtonChoice",
+                    "_RHS_": "Left"
+                },
+
+                "<If>ExtraRange": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "LeftPathSpec",
+                        "_RHS_": "Zero"
+                    },
+                    "ExtraRange": { "PrefabType": "Action" } //
+                },
+                "<If>BiggerBombs": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "LeftPathSpec",
+                        "_RHS_": "One"
+                    },
+                    "BiggerBombs": { "PrefabType": "Action" } //
+                },
+                "<IncrementInt>": {
+                    "RepeatCount": 0,
+                    "KeyToModify": "LeftPathSpec",
+                    "IncrementAmount": 1
+                }
+            },
+
+            // Right upgrade path
+            "<If>RightPath": {
+                "RepeatCount": 0,
+                "<Equal>": {
+                    "_LHS_": "ButtonChoice",
+                    "_RHS_": "Right"
+                },
+
+                "<If>FragBombs": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "RightPathSpec",
+                        "_RHS_": "Zero"
+                    },
+                    "FragBombs": { "PrefabType": "Action" } //
+                },
+                "<If>ClusterBombs": {
+                    "RepeatCount": 0,
+                    "<Equal>": {
+                        "_LHS_": "RightPathSpec",
+                        "_RHS_": "One"
+                    },
+                    "ClusterBombs": { "PrefabType": "Action" } //
+                },
+                "<IncrementInt>": {
+                    "RepeatCount": 0,
+                    "KeyToModify": "RightPathSpec",
+                    "IncrementAmount": 1
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    // Path 1
+    "<Increment>LongRangeDarts": {
+        "RepeatCount": 0,
+        "KeyToModify": "Range",
+        "IncrementAmount": 25.0
+    },
+    "<ActionList>EnhancedEyesight": {
+        "RepeatCount": 0,
+
+        "<Increment>": {
+            "RepeatCount": 0,
+            "KeyToModify": "Range",
+            "IncrementAmount": 25.0
+        },
+
+        "<Set>": {
+            "RepeatCount": 0,
+            "true": 1,
+            "Source": "true",
+            "Target": "CamoDetection"
+        }
+    },
+    "<ActionList>SpikeOPult": {
+        "RepeatCount": 0
+    },
+    "<ActionList>Juggernaut": {
+        "RepeatCount": 0
+    },
+
+    // Path 2
+    "<IncrementInt>SharpShots": {
+        "RepeatCount": 0,
+        "KeyToModify": "Pierce",
+        "IncrementAmount": 1
+    },
+    "<IncrementInt>RazorSharpShots": {
+        "RepeatCount": 0,
+        "KeyToModify": "Pierce",
+        "IncrementAmount": 2
+    },
+    "<Set>TripleDarts": {
+        "RepeatCount": 0,
+        "newProjectileCount": 3,
+        "Source": "newProjectileCount",
+        "Target": "NumProjectiles"
+    },
+    "<Set>SuperMonkeyFanClub": {
+        "RepeatCount": 0,
+        "true": 1,
+        "Source": "true",
+        "Target": "HasActiveRight"
+    },
+    "<ActivateSuperMonkeyFanClub>ActivateSuperMonkeyFanClub": {
+        "RepeatCount": 0,
+        "Timer": 15000,
+        "RangeBuff": 40,
+        "NewAttackSpeed": 50
+    }
+}
