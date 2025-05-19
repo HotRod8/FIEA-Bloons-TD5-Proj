@@ -1,0 +1,14 @@
+{
+    "<Bloon>RainbowBloon": {
+        "TextureFileName": "Content/Assets/BloonSprites/Rainbow.png",
+        "Rank": 9,
+        "Speed": 2.2,
+        "RBE": 47,
+        "BloonChildren": [
+            "ZebraBloon"
+        ],
+        "NumberOfChildrenToSpawn": [
+            2
+        ]
+    }
+}

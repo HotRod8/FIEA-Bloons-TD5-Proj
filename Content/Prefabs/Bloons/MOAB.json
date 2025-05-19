@@ -1,0 +1,15 @@
+{
+    "<Bloon>MOAB_Bloon": {
+        "TextureFileName": "Content/Assets/BloonSprites/MOAB.png",
+        "Rank": 11,
+        "Health": 200,
+        "Speed": 1.0,
+        "RBE": 616,
+        "BloonChildren": [
+            "CeramicBloon"
+        ],
+        "NumberOfChildrenToSpawn": [
+            4
+        ]
+    }
+}

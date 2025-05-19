@@ -1,0 +1,49 @@
+{
+    "<Tower>DartMonkey": {
+        "TextureFileName": "Content/Assets/ShopButtonUISprites/InGameSprites/ShopSprite1.png",
+        "AttackSpeed": 940, //940 default
+        "Range": 100.0, //100 default
+        "Pierce": 1,
+        "Damage": 1,
+        "DamageTypes": [ "Sharp" ],
+        "ProjectileName": "Shuriken",
+        "Category": "Towers",
+
+        // Costs + Upgrade info
+        "TowerCost": 200,
+        "UpgradesLeftName": [ "Long Range Darts", "Enhanced Eyesight", "Spike-O-Pult", "Juggernaut" ],
+        "UpgradesRightName": [ "Sharp Shots", "Razor Sharp Shots", "Triple Darts", "Super Monkey Fan Club" ],
+        "UpgradesLeftCost": [ 90, 120, 500, 1500 ],
+        "UpgradesRightCost": [ 140, 170, 330, 8000 ],
+        "UpgradesLeftFlavorText": [
+            "Makes the dart monkey shoot further than normal.",
+            "Further increases attack range and allows Dart Monkey to see Camo Bloons.",
+            "Converts the Dart Monkey into a Spike-O-Pult, a powerful tower that hurls a large spiked ball instead of darts. Good range, but slower attack speed. Each ball can pop 18 bloons.",
+            "Hurls a giant unstoppable killer spiked ball that can pop lead bloons and excels at crushing ceramic bloons."
+        ],
+        "UpgradesRightFlavorText": [
+            "Can pop 1 extra bloon per shot.",
+            "Can pop 2 extra bloons per shot.",
+            "Throws 3 darts at a time instead of 1.",
+            "Super Monkey Fan Club Ability: Converts up to 10 nearby dart monkeys into Super Monkeys for 15 seconds."
+        ],
+        "UpgradesLeftSpritePaths": [
+            "Content/Assets/Towers/Upgrades/DartMonkeyUpgrades/Left/1.png",
+            "Content/Assets/Towers/Upgrades/DartMonkeyUpgrades/Left/2.png",
+            "Content/Assets/Towers/Upgrades/DartMonkeyUpgrades/Left/3.png",
+            "Content/Assets/Towers/Upgrades/DartMonkeyUpgrades/Left/4.png"
+        ],
+        "UpgradesRightSpritePaths": [
+            "Content/Assets/Towers/Upgrades/DartMonkeyUpgrades/Right/1.png",
+            "Content/Assets/Towers/Upgrades/DartMonkeyUpgrades/Right/2.png",
+            "Content/Assets/Towers/Upgrades/DartMonkeyUpgrades/Right/3.png",
+            "Content/Assets/Towers/Upgrades/DartMonkeyUpgrades/Right/4.png"
+        ],
+        // Upgrades
+        "SetUpgradesDartMonkey": { "PrefabType": "Action" },
+
+        // Behavior
+        "FireProjectileAtClosestBloon": { "PrefabType": "Action" }
+
+    }
+}

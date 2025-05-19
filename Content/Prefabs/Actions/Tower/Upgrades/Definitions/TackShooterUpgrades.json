@@ -1,0 +1,102 @@
+{
+    // Path 1
+    "<ActionList>FasterShooting": {
+        "RepeatCount": 0,
+        "<MultiplyInt>": {
+            "RepeatCount": 0,
+            "KeyToModify": "AttackSpeed",
+            "MultiplyFactor": 100
+        },
+        "<DivideInt>": {
+            "RepeatCount": 0,
+            "KeyToModify": "AttackSpeed",
+            "Divisor": 149 // 49% faster
+        }
+    },
+    "<ActionList>EvenFasterShooting": {
+        "RepeatCount": 0,
+        "<MultiplyInt>": {
+            "RepeatCount": 0,
+            "KeyToModify": "AttackSpeed",
+            "MultiplyFactor": 100
+        },
+        "<DivideInt>": {
+            "RepeatCount": 0,
+            "KeyToModify": "AttackSpeed",
+            "Divisor": 180 // 80% faster
+        }
+    },
+    "<Set>TackSprayer": {
+        "RepeatCount": 0,
+        "newProjectilCount": 16,
+        "Source": "newProjectileCount",
+        "Target": "NumProjectiles"
+    },
+    "<ActionList>RingOfFire": {
+        "RepeatCount": 0,
+        // Set pierce
+        "<Set>pierce": {
+            "RepeatCount": 0,
+            "newPierce": 60,
+            "Source": "newPierce",
+            "Target": "Pierce"
+        },
+        // Extra range
+        "<Increment>range": {
+            "RepeatCount": 0,
+            "KeyToModify": "Range",
+            "IncrementAmount": 10.0
+        },
+        // Increased firerate
+        "<MultiplyInt>firerate": {
+            "RepeatCount": 0,
+            "KeyToModify": "AttackSpeed",
+            "MultiplyFactor": 100
+        },
+        "<DivideInt>firerate": {
+            "RepeatCount": 0,
+            "KeyToModify": "AttackSpeed",
+            "Divisor": 155 // 55% faster
+        }
+        // Set new projectile image? (Store this in Tower!
+    },
+
+    // Path 2
+    "<Increment>ExtraRangeTacks": {
+        "RepeatCount": 0,
+        "KeyToModify": "Range",
+        "IncrementAmount": 25.0
+    },
+    "<Increment>SuperRangeTacks": {
+        "RepeatCount": 0,
+        "KeyToModify": "Range",
+        "IncrementAmount": 25.0
+    },
+    "<ActionList>BladeShooter": {
+        "RepeatCount": 0,
+        // Set new projectile
+
+        // Increase pierce
+        "<Set>pierce": {
+            "RepeatCount": 0,
+            "newPierce": 2,
+            "Source": "newPierce",
+            "Target": "Pierce"
+        },
+        // Increase attack speed
+        "<MultiplyInt>firerate": {
+            "RepeatCount": 0,
+            "KeyToModify": "AttackSpeed",
+            "MultiplyFactor": 100
+        },
+        "<DivideInt>firerate": {
+            "RepeatCount": 0,
+            "KeyToModify": "AttackSpeed",
+            "Divisor": 110 // 10% faster
+        }
+        // Cannot attack Ice/Lead
+    },
+    "<ActionList>BladeMaelstrom": {
+        "RepeatCount": 0
+    }
+}

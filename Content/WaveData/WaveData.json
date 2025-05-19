@@ -1,0 +1,3290 @@
+{
+    "root": [
+        {
+            "Level": 1,
+            "StartX": 500,
+            "StartY": 0,
+            "Path": [
+                {
+                    "x": 500.0,
+                    "y": 65.0
+                },
+                {
+                    "x": 150.0,
+                    "y": 65.0
+                },
+                {
+                    "x": 150.0,
+                    "y": 535.0
+                },
+                {
+                    "x": 675.0,
+                    "y": 535.0
+                },
+
+                {
+                    "x": 675.0,
+                    "y": 265.0
+                },
+                {
+                    "x": 500.0,
+                    "y": 265.0
+                },
+                {
+                    "x": 500.0,
+                    "y": 435.0
+                },
+                {
+                    "x": 325.0,
+                    "y": 435.0
+                },
+                {
+                    "x": 325.0,
+                    "y": 155.0
+                },
+                {
+                    "x": 845.0,
+                    "y": 150.0
+                },
+                {
+                    "x": 845.0,
+                    "y": 635.0
+                },
+                {
+                    "x": 490.0,
+                    "y": 635.0
+                },
+                {
+                    "x": 490.0,
+                    "y": 700.0
+                }
+            ],
+            "Waves": [
+                {
+                    "Batches": [ /* Round 1 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 20
+                },
+                {
+                    "Batches": [ /* Round 2 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 30,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ],
+                    "Reward": 21
+                },
+                {
+                    "Batches": [ /* Round 3 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 22
+                },
+                {
+                    "Batches": [ /* Round 4 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 30,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        }
+                    ],
+                    "Reward": 23
+                },
+                {
+                    "Batches": [ /* Round 5 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ],
+                    "Reward": 24
+                },
+                {
+                    "Batches": [ /* Round 6 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 25
+                },
+                {
+                    "Batches": [ /* Round 7 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.2
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 26
+                },
+                {
+                    "Batches": [ /* Round 8 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 14,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        }
+                    ],
+                    "Reward": 27
+                },
+                {
+                    "Batches": [ /* Round 9 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 30,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        }
+                    ],
+                    "Reward": 28
+                },
+                {
+                    "Batches": [ /* Round 10 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlueBloon",
+                            "Count": 102,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 6.0
+                        }
+                    ],
+                    "Reward": 29
+                },
+                {
+                    "Batches": [ /* Round 11 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.4
+                        },
+                        {
+                            "StartTime": 15.0,
+                            "Type": "YellowBloon",
+                            "Count": 2,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 33
+                },
+                {
+                    "Batches": [ /* Round 12 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "GreenBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "YellowBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 38
+                },
+                {
+                    "Batches": [ /* Round 13 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 100,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 8.0
+                        },
+                        {
+                            "StartTime": 12.5,
+                            "Type": "GreenBloon",
+                            "Count": 23,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "YellowBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 44
+                },
+                {
+                    "Batches": [ /* Round 14 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 49,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 4.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.4
+                        },
+                        {
+                            "StartTime": 15.0,
+                            "Type": "GreenBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "YellowBloon",
+                            "Count": 9,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        }
+                    ],
+                    "Reward": 48
+                },
+                {
+                    "Batches": [ /* Round 15 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 6.0,
+                            "Type": "GreenBloon",
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "YellowBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        },
+                        {
+                            "StartTime": 18.0,
+                            "Type": "PinkBloon",
+                            "Count": 3,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.8
+                        }
+                    ],
+                    "Reward": 54
+                },
+                {
+                    "Batches": [ /* Round 16 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 7.0,
+                            "Type": "YellowBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.6
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "PinkBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.9
+                        }
+                    ],
+                    "Reward": 60
+                },
+                {
+                    "Batches": [ /* Round 17 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon", /* Regrow */
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 66
+                },
+                {
+                    "Batches": [ /* Round 18 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 80,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 6.0
+                        }
+                    ],
+                    "Reward": 72
+                },
+                {
+                    "Batches": [ /* Round 19 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "YellowBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "YellowBloon", /*  REGROW */
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.5
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "PinkBloon",
+                            "Count": 7,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.4
+                        }
+                    ],
+                    "Reward": 76
+                },
+                {
+                    "Batches": [ /* Round 20 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 6,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 82
+                },
+                {
+                    "Batches": [ /* Round 21 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 14,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.4
+                        }
+                    ],
+                    "Reward": 86
+                },
+                {
+                    "Batches": [ /* Round 22 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "WhiteBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.6
+                        }
+                    ],
+                    "Reward": 92
+                },
+                {
+                    "Batches": [ /* Round 23 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 2.5,
+                            "Type": "WhiteBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 100
+                },
+                {
+                    "Batches": [ /* Round 24 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 1,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 1.5
+                        }
+                    ],
+                    "Reward": 112
+                },
+                {
+                    "Batches": [ /* Round 25 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 31,
+                            "Trait": "Normal", /* <-- UPDATE TO REGROWTH */
+                            "BloonsPerSecond": 3.0
+                        }
+                    ],
+                    "Reward": 124
+                },
+                {
+                    "Batches": [ /* Round 26 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 23,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 7.0,
+                            "Type": "ZebraBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 136
+                },
+                {
+                    "Batches": [ /* Round 27 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 120,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 24.0,
+                            "Type": "BlueBloon",
+                            "Count": 55,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        },
+                        {
+                            "StartTime": 30.0,
+                            "Type": "GreenBloon",
+                            "Count": 45,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        },
+                        {
+                            "StartTime": 34.5,
+                            "Type": "YellowBloon",
+                            "Count": 45,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        }
+
+                    ],
+                    "Reward": 148
+                },
+                {
+                    "Batches": [ /* Round 28 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "LeadBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 160
+                },
+                {
+                    "Batches": [ /* Round 29 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 3.0,
+                            "Type": "PinkBloon", /* REGRO*/
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 172
+                },
+                {
+                    "Batches": [ /* Round 31 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "ZebraBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 3.0,
+                            "Type": "PinkBloon", /* REGRO*/
+                            "Count": 2,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 186
+                },
+                {
+                    "Batches": [ /* Round 32 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "LeadBloon",
+                            "Count": 9,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 3.0,
+                            "Type": "PinkBloon", /* REGRO*/
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 198
+                },
+                {
+                    "Batches": [ /* Round 33 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 20,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 220
+                },
+                {
+                    "Batches": [ /* Round 34 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 140,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 7.0
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "ZebraBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 240
+                },
+                {
+                    "Batches": [ /* Round 35 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 35,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.5
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "WhiteBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "RainbowBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 260
+                },
+                {
+                    "Batches": [ /* Round 36 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 81,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 6.0
+                        }
+                    ],
+                    "Reward": 280
+                },
+                {
+                    "Batches": [ /* Round 37 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "WhiteBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "WhiteBloon",
+                            "Count": 7,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 1.4
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "LeadBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        },
+                        {
+                            "StartTime": 16.0,
+                            "Type": "ZebraBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 300
+                },
+                {
+                    "Batches": [ /* Round 38 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 42,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 4.2
+                        },
+                        {
+                            "StartTime": 6.0,
+                            "Type": "WhiteBloon",
+                            "Count": 17,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "LeadBloon",
+                            "Count": 14,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.4
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "ZebraBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 18.0,
+                            "Type": "RainbowBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 320
+                },
+                {
+                    "Batches": [ /* Round 39 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "WhiteBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "LeadBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "ZebraBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 16.0,
+                            "Type": "RainbowBloon",
+                            "Count": 18,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        }
+                    ],
+                    "Reward": 340
+                },
+                {
+                    "Batches": [ /* Round 40 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RainbowBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        },
+                        {
+                            "StartTime": 6.0,
+                            "Type": "CeramicBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 360
+                },
+                {
+                    "Batches": [ /* Round 41 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 60,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "ZebraBloon",
+                            "Count": 60,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        }
+                    ],
+                    "Reward": 380
+                },
+                {
+                    "Batches": [ /* Round 42 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RainbowBloon",
+                            "Count": 6,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 1.2
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "RainbowBloon",
+                            "Count": 6,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 400
+                },
+                {
+                    "Batches": [ /* Round 43 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RainbowBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "CeramicBloon",
+                            "Count": 7,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 450
+                },
+                {
+                    "Batches": [ /* Round 44 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "ZebraBloon",
+                            "Count": 50,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ],
+                    "Reward": 500
+                },
+                {
+                    "Batches": [ /* Round 45 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 200,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "LeadBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 24.0,
+                            "Type": "RainbowBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ],
+                    "Reward": 550
+                },
+                {
+                    "Batches": [ /* Round 46 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "MOABBloon",
+                            "Count": 1,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.2
+                        }
+                    ],
+                    "Reward": 625
+                },
+                {
+                    "Batches": [ /* Round 47 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 70,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 3.5
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "CeramicBloon",
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 700
+                },
+                {
+                    "Batches": [ /* Round 48 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 120,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 6.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "RainbowBloon",
+                            "Count": 50,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ],
+                    "Reward": 775
+                },
+                {
+                    "Batches": [ /* Round 49 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 343,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 17.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "ZebraBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 24.0,
+                            "Type": "RainbowBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 28.0,
+                            "Type": "RainbowBloon",
+                            "Count": 10,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 32.0,
+                            "Type": "CeramicBloon",
+                            "Count": 18,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        }
+                    ],
+                    "Reward": 850
+                },
+                {
+                    "Batches": [ /* Round 50 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "LeadBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.8
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "CeramicBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 16.0,
+                            "Type": "MOABBloon",
+                            "Count": 2,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.25
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Level": 2,
+            "StartX": 460,
+            "StartY": 720,
+            "Path": [
+                {
+                    "x": 460.0,
+                    "y": 525.0
+                },
+                {
+                    "x": 110.0,
+                    "y": 615.0
+                },
+                {
+                    "x": 380.0,
+                    "y": 433.0
+                },
+                {
+                    "x": 110.0,
+                    "y": 322.0
+                },
+                {
+                    "x": 400.0,
+                    "y": 325.0
+                },
+                {
+                    "x": 290.0,
+                    "y": 50.0
+                },
+                {
+                    "x": 525.0,
+                    "y": 305.0
+                },
+                {
+                    "x": 800.0,
+                    "y": 85.0
+                },
+                {
+                    "x": 625.0,
+                    "y": 325.0
+                },
+                {
+                    "x": 925.0,
+                    "y": 375.0
+                },
+                {
+                    "x": 630.0,
+                    "y": 425.0
+                },
+                {
+                    "x": 830.0,
+                    "y": 635.0
+                },
+                {
+                    "x": 535.0,
+                    "y": 500.0
+                },
+                {
+                    "x": 535.0,
+                    "y": 720.0
+                }
+            ],
+            "Waves": [
+                {
+                    "Batches": [ /* Round 1 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 20
+                },
+                {
+                    "Batches": [ /* Round 2 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 30,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ],
+                    "Reward": 21
+                },
+                {
+                    "Batches": [ /* Round 3 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 22
+                },
+                {
+                    "Batches": [ /* Round 4 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 30,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        }
+                    ],
+                    "Reward": 23
+                },
+                {
+                    "Batches": [ /* Round 5 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ],
+                    "Reward": 24
+                },
+                {
+                    "Batches": [ /* Round 6 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 25
+                },
+                {
+                    "Batches": [ /* Round 7 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.2
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 26
+                },
+                {
+                    "Batches": [ /* Round 8 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 14,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        }
+                    ],
+                    "Reward": 27
+                },
+                {
+                    "Batches": [ /* Round 9 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 30,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        }
+                    ],
+                    "Reward": 28
+                },
+                {
+                    "Batches": [ /* Round 10 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlueBloon",
+                            "Count": 102,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 6.0
+                        }
+                    ],
+                    "Reward": 29
+                },
+                {
+                    "Batches": [ /* Round 11 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.4
+                        },
+                        {
+                            "StartTime": 15.0,
+                            "Type": "YellowBloon",
+                            "Count": 2,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 33
+                },
+                {
+                    "Batches": [ /* Round 12 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "GreenBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "YellowBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 38
+                },
+                {
+                    "Batches": [ /* Round 13 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 100,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 8.0
+                        },
+                        {
+                            "StartTime": 12.5,
+                            "Type": "GreenBloon",
+                            "Count": 23,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "YellowBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 44
+                },
+                {
+                    "Batches": [ /* Round 14 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 49,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 4.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.4
+                        },
+                        {
+                            "StartTime": 15.0,
+                            "Type": "GreenBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "YellowBloon",
+                            "Count": 9,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        }
+                    ],
+                    "Reward": 48
+                },
+                {
+                    "Batches": [ /* Round 15 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 6.0,
+                            "Type": "GreenBloon",
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "YellowBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        },
+                        {
+                            "StartTime": 18.0,
+                            "Type": "PinkBloon",
+                            "Count": 3,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.8
+                        }
+                    ],
+                    "Reward": 54
+                },
+                {
+                    "Batches": [ /* Round 16 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 7.0,
+                            "Type": "YellowBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.6
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "PinkBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.9
+                        }
+                    ],
+                    "Reward": 60
+                },
+                {
+                    "Batches": [ /* Round 17 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 66
+                },
+                {
+                    "Batches": [ /* Round 18 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 80,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 6.0
+                        }
+                    ],
+                    "Reward": 72
+                },
+                {
+                    "Batches": [ /* Round 19 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "YellowBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "YellowBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.5
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "PinkBloon",
+                            "Count": 7,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.4
+                        }
+                    ],
+                    "Reward": 76
+                },
+                {
+                    "Batches": [ /* Round 20 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 6,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 82
+                },
+                {
+                    "Batches": [ /* Round 21 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 14,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.4
+                        }
+                    ],
+                    "Reward": 86
+                },
+                {
+                    "Batches": [ /* Round 22 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "WhiteBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.6
+                        }
+                    ],
+                    "Reward": 92
+                },
+                {
+                    "Batches": [ /* Round 23 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 2.5,
+                            "Type": "WhiteBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 100
+                },
+                {
+                    "Batches": [ /* Round 24 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 1,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 1.5
+                        }
+                    ],
+                    "Reward": 112
+                },
+                {
+                    "Batches": [ /* Round 25 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 31,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        }
+                    ],
+                    "Reward": 124
+                },
+                {
+                    "Batches": [ /* Round 26 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 23,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 7.0,
+                            "Type": "ZebraBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 136
+                },
+                {
+                    "Batches": [ /* Round 27 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 120,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 24.0,
+                            "Type": "BlueBloon",
+                            "Count": 55,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        },
+                        {
+                            "StartTime": 30.0,
+                            "Type": "GreenBloon",
+                            "Count": 45,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        },
+                        {
+                            "StartTime": 34.5,
+                            "Type": "YellowBloon",
+                            "Count": 45,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        }
+                    ],
+                    "Reward": 148
+                },
+                {
+                    "Batches": [ /* Round 28 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "LeadBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 160
+                },
+                {
+                    "Batches": [ /* Round 29 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 3.0,
+                            "Type": "PinkBloon",
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 172
+                },
+                {
+                    "Batches": [ /* Round 31 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "ZebraBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 3.0,
+                            "Type": "PinkBloon",
+                            "Count": 2,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 186
+                },
+                {
+                    "Batches": [ /* Round 32 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "LeadBloon",
+                            "Count": 9,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 3.0,
+                            "Type": "PinkBloon",
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 198
+                },
+                {
+                    "Batches": [ /* Round 33 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 20,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ],
+                    "Reward": 220
+                },
+                {
+                    "Batches": [ /* Round 34 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 140,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 7.0
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "ZebraBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 240
+                },
+                {
+                    "Batches": [ /* Round 35 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 35,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.5
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "WhiteBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "RainbowBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 260
+                },
+                {
+                    "Batches": [ /* Round 36 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 81,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 6.0
+                        }
+                    ],
+                    "Reward": 280
+                },
+                {
+                    "Batches": [ /* Round 37 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "WhiteBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "WhiteBloon",
+                            "Count": 7,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 1.4
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "LeadBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        },
+                        {
+                            "StartTime": 16.0,
+                            "Type": "ZebraBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 300
+                },
+                {
+                    "Batches": [ /* Round 38 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 42,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 4.2
+                        },
+                        {
+                            "StartTime": 6.0,
+                            "Type": "WhiteBloon",
+                            "Count": 17,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "LeadBloon",
+                            "Count": 14,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.4
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "ZebraBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 18.0,
+                            "Type": "RainbowBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 320
+                },
+                {
+                    "Batches": [ /* Round 39 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "WhiteBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "LeadBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "ZebraBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 16.0,
+                            "Type": "RainbowBloon",
+                            "Count": 18,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        }
+                    ],
+                    "Reward": 340
+                },
+                {
+                    "Batches": [ /* Round 40 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RainbowBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        },
+                        {
+                            "StartTime": 6.0,
+                            "Type": "CeramicBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 360
+                },
+                {
+                    "Batches": [ /* Round 41 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 60,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "ZebraBloon",
+                            "Count": 60,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        }
+                    ],
+                    "Reward": 380
+                },
+                {
+                    "Batches": [ /* Round 42 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RainbowBloon",
+                            "Count": 6,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 1.2
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "RainbowBloon",
+                            "Count": 6,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 400
+                },
+                {
+                    "Batches": [ /* Round 43 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RainbowBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "CeramicBloon",
+                            "Count": 7,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ],
+                    "Reward": 450
+                },
+                {
+                    "Batches": [ /* Round 44 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "ZebraBloon",
+                            "Count": 50,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ],
+                    "Reward": 500
+                },
+                {
+                    "Batches": [ /* Round 45 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 200,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "LeadBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 24.0,
+                            "Type": "RainbowBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ],
+                    "Reward": 550
+                },
+                {
+                    "Batches": [ /* Round 46 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "MOABBloon",
+                            "Count": 1,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.2
+                        }
+                    ],
+                    "Reward": 625
+                },
+                {
+                    "Batches": [ /* Round 47 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 70,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 3.5
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "CeramicBloon",
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ],
+                    "Reward": 700
+                },
+                {
+                    "Batches": [ /* Round 48 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 120,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 6.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "RainbowBloon",
+                            "Count": 50,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ],
+                    "Reward": 775
+                },
+                {
+                    "Batches": [ /* Round 49 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 343,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 17.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "ZebraBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 24.0,
+                            "Type": "RainbowBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 28.0,
+                            "Type": "RainbowBloon",
+                            "Count": 10,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 32.0,
+                            "Type": "CeramicBloon",
+                            "Count": 18,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        }
+                    ],
+                    "Reward": 850
+                },
+                {
+                    "Batches": [ /* Round 50 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "LeadBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.8
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "CeramicBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 16.0,
+                            "Type": "MOABBloon",
+                            "Count": 2,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.25
+                        }
+                    ],
+                    "Reward": 1000
+                }
+            ]
+        },
+        {
+            "Level": 3,
+            "StartX": 100,
+            "StartY": 0,
+            "Path": [
+                {
+                    "x": 100.0,
+                    "y": 115.0
+                },
+                {
+                    "x": 350.0,
+                    "y": 115.0
+                },
+                {
+                    "x": 350.0,
+                    "y": 355.0
+                },
+                {
+                    "x": 100.0,
+                    "y": 355.0
+                },
+
+                {
+                    "x": 100.0,
+                    "y": 660.0
+                },
+                {
+                    "x": 350.0,
+                    "y": 660.0
+                },
+                {
+                    "x": 350.0,
+                    "y": 425.0
+                },
+                {
+                    "x": 425.0,
+                    "y": 425.0
+                },
+                {
+                    "x": 425.0,
+                    "y": 125.0
+                },
+                {
+                    "x": 880.0,
+                    "y": 125.0
+                },
+                {
+                    "x": 880.0,
+                    "y": 355.0
+                },
+                {
+                    "x": 665.0,
+                    "y": 355.0
+                },
+                {
+                    "x": 665.0,
+                    "y": 425.0
+                },
+                {
+                    "x": 665.0,
+                    "y": 425.0
+                },
+                {
+                    "x": 880.0,
+                    "y": 425.0
+                },
+                {
+                    "x": 880.0,
+                    "y": 665.0
+                },
+                {
+                    "x": 1000.0,
+                    "y": 665.0
+                }
+            ],
+            "Waves": [
+                {
+                    "Batches": [ /* Round 1 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 2 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 30,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 3 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 4 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 30,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 5 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 6 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 7 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.2
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 8 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 14,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 9 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 30,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 10 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlueBloon",
+                            "Count": 102,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 6.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 11 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "BlueBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "GreenBloon",
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.4
+                        },
+                        {
+                            "StartTime": 15.0,
+                            "Type": "YellowBloon",
+                            "Count": 2,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 12 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "GreenBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "YellowBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 13 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 100,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 8.0
+                        },
+                        {
+                            "StartTime": 12.5,
+                            "Type": "GreenBloon",
+                            "Count": 23,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "YellowBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 14 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 49,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 4.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "BlueBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.4
+                        },
+                        {
+                            "StartTime": 15.0,
+                            "Type": "GreenBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "YellowBloon",
+                            "Count": 9,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 15 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 6.0,
+                            "Type": "GreenBloon",
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "YellowBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        },
+                        {
+                            "StartTime": 18.0,
+                            "Type": "PinkBloon",
+                            "Count": 3,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.8
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 16 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 7.0,
+                            "Type": "YellowBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.6
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "PinkBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.9
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 17 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon", /* Regrow */
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 18 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 80,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 6.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 19 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "YellowBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "YellowBloon", /*  REGROW */
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.5
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "PinkBloon",
+                            "Count": 7,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.4
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 20 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 6,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 21 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 14,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.4
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 22 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "WhiteBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.6
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 23 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 2.5,
+                            "Type": "WhiteBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 24 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 1,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 1.5
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 25 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 31,
+                            "Trait": "Normal", /* <-- UPDATE TO REGROWTH */
+                            "BloonsPerSecond": 3.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 26 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 23,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 7.0,
+                            "Type": "ZebraBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 27 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 120,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 24.0,
+                            "Type": "BlueBloon",
+                            "Count": 55,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        },
+                        {
+                            "StartTime": 30.0,
+                            "Type": "GreenBloon",
+                            "Count": 45,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        },
+                        {
+                            "StartTime": 34.5,
+                            "Type": "YellowBloon",
+                            "Count": 45,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        }
+
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 28 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "LeadBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 29 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 3.0,
+                            "Type": "PinkBloon", /* REGRO*/
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 31 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "ZebraBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 3.0,
+                            "Type": "PinkBloon", /* REGRO*/
+                            "Count": 2,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 32 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "LeadBloon",
+                            "Count": 9,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 5.0
+                        },
+                        {
+                            "StartTime": 3.0,
+                            "Type": "PinkBloon", /* REGRO*/
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 33 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 20,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 2.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 34 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "YellowBloon",
+                            "Count": 140,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 7.0
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "ZebraBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 35 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 35,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.5
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "WhiteBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "RainbowBloon",
+                            "Count": 5,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 36 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 81,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 6.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 37 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "WhiteBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "WhiteBloon",
+                            "Count": 7,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 1.4
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "LeadBloon",
+                            "Count": 15,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        },
+                        {
+                            "StartTime": 16.0,
+                            "Type": "ZebraBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 38 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 42,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 4.2
+                        },
+                        {
+                            "StartTime": 6.0,
+                            "Type": "WhiteBloon",
+                            "Count": 17,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 10.0,
+                            "Type": "LeadBloon",
+                            "Count": 14,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.4
+                        },
+                        {
+                            "StartTime": 14.0,
+                            "Type": "ZebraBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 18.0,
+                            "Type": "RainbowBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 39 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "WhiteBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "LeadBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "ZebraBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 16.0,
+                            "Type": "RainbowBloon",
+                            "Count": 18,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 40 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RainbowBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.5
+                        },
+                        {
+                            "StartTime": 6.0,
+                            "Type": "CeramicBloon",
+                            "Count": 4,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 41 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "BlackBloon",
+                            "Count": 60,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "ZebraBloon",
+                            "Count": 60,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 3.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 42 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RainbowBloon",
+                            "Count": 6,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 1.2
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "RainbowBloon",
+                            "Count": 6,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 43 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RainbowBloon",
+                            "Count": 10,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 5.0,
+                            "Type": "CeramicBloon",
+                            "Count": 7,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 44 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "ZebraBloon",
+                            "Count": 50,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 45 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 200,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 10.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "LeadBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 24.0,
+                            "Type": "RainbowBloon",
+                            "Count": 25,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 46 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "MOABBloon",
+                            "Count": 1,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.2
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 47 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 70,
+                            "Trait": "Camo",
+                            "BloonsPerSecond": 3.5
+                        },
+                        {
+                            "StartTime": 12.0,
+                            "Type": "CeramicBloon",
+                            "Count": 12,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.2
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 48 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "PinkBloon",
+                            "Count": 120,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 6.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "RainbowBloon",
+                            "Count": 50,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.5
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 49 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "GreenBloon",
+                            "Count": 343,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 17.0
+                        },
+                        {
+                            "StartTime": 20.0,
+                            "Type": "ZebraBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 24.0,
+                            "Type": "RainbowBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 28.0,
+                            "Type": "RainbowBloon",
+                            "Count": 10,
+                            "Trait": "Regrow",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 32.0,
+                            "Type": "CeramicBloon",
+                            "Count": 18,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.8
+                        }
+                    ]
+                },
+                {
+                    "Batches": [ /* Round 50 */
+                        {
+                            "StartTime": 0.0,
+                            "Type": "RedBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 2.0
+                        },
+                        {
+                            "StartTime": 4.0,
+                            "Type": "LeadBloon",
+                            "Count": 8,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.8
+                        },
+                        {
+                            "StartTime": 8.0,
+                            "Type": "CeramicBloon",
+                            "Count": 20,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 1.0
+                        },
+                        {
+                            "StartTime": 16.0,
+                            "Type": "MOABBloon",
+                            "Count": 2,
+                            "Trait": "Normal",
+                            "BloonsPerSecond": 0.25
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

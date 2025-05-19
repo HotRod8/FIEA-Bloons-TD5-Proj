@@ -1,0 +1,50 @@
+{
+    "<Tower>SuperMonkey": {
+        "TextureFileName": "Content/Assets/ShopButtonUISprites/InGameSprites/ShopSprite4.png",
+        "AttackSpeed": 58,
+        "Range": 140.0,
+        "Pierce": 1,
+        "Damage": 1,
+        "DamageTypes": [ "Sharp" ],
+        "ProjectileName": "Shuriken",
+
+        // Costs + Upgrade info
+        "TowerCost": 3500,
+        "UpgradesLeftName": [ "Laser Blasts", "Plasma Blasts", "Sun God", "Temple of the Monkey God" ],
+        "UpgradesRightname": [ "Super Range", "Epic Range", "Robo Monkey", "Technological Terror" ],
+        "UpgradesLeftCost": [ 3500, 5000, 16500, 100000 ],
+        "UpgradesRightCost": [ 1000, 1500, 9000, 25000 ],
+        "UpgradesLeftFlavorText": [
+            "Shoots super-powerful lasers instead of throwing darts. Lasers can pop frozen bloons.",
+            "Plasma vaporizes everything it touches!",
+            "It is said that those who doth touch the sun will be cleansed, and then there shalt be peace.",
+            "The Temple demands sacrifice. Its arsenal of unstoppable bloon destruction is enhanced and modified by the types of towers sacrificed. Use at your own peril."
+        ],
+        "UpgradesRightFlavorText": [
+            "Super Monkey + super range = good!",
+            "Why settle for super when you can have EPIC?",
+            "Half Super Monkey, half killer robot of death. Super Monkey's arms become pulse cannons of annihilation, able to aim and target independently from each other.",
+            "Be proud of this Technological Terror you've constructed. Bloon Annihilation Ability: Destroys all bloons within short radius of tower, completely, and utterly. Does 1000 damage to MOAB-class bloons."
+        ],
+        "UpgradesLeftSpritePaths": [
+            "Content/Assets/Towers/Upgrades/SuperMonkeyUpgrades/Left/1.png",
+            "Content/Assets/Towers/Upgrades/SuperMonkeyUpgrades/Left/2.png",
+            "Content/Assets/Towers/Upgrades/SuperMonkeyUpgrades/Left/3.png",
+            "Content/Assets/Towers/Upgrades/SuperMonkeyUpgrades/Left/4.png"
+        ],
+        "UpgradesRightSpritePaths": [
+            "Content/Assets/Towers/Upgrades/SuperMonkeyUpgrades/Right/1.png",
+            "Content/Assets/Towers/Upgrades/SuperMonkeyUpgrades/Right/2.png",
+            "Content/Assets/Towers/Upgrades/SuperMonkeyUpgrades/Right/3.png",
+            "Content/Assets/Towers/Upgrades/SuperMonkeyUpgrades/Right/4.png"
+        ],
+
+        // Upgrades
+        "SetUpgradesSuperMonkey": { "PrefabType": "Action" },
+
+        // Behavior
+        "FireProjectileAtClosestBloon": { "PrefabType": "Action" }
+
+
+    }
+}

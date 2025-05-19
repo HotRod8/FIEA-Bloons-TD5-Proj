@@ -1,0 +1,49 @@
+{
+    "<Tower>SniperMonkey": {
+        "TextureFileName": "Content/Assets/ShopButtonUISprites/InGameSprites/ShopSprite3.png",
+        "OverlayTexturesOffsetX": [ 0, -7, 0 ],
+        "OverlayTexturesOffsetY": [ -30, -32, 0 ],
+        "AttackSpeed": 2200, //2200 default (2.2 second/att)
+        "Range": 100000.0, //Infinite range
+        "Pierce": 1,
+        "Damage": 2, //2 default
+        "DamageTypes": [ "Sharp" ],
+        "ProjectileName": "Shuriken",
+
+        // Costs + Upgrade info
+        "TowerCost": 350,
+        "UpgradesLeftName": [ "Full Metal Jacket", "Point Five Oh", "Deadly Precision", "Cripple MOAB" ],
+        "UpgradesRightname": [ "Faster Firing", "Night Vision Goggles", "Semi-Automatic Rifle", "Supply Drop" ],
+        "UpgradesLeftCost": [ 350, 2200, 4000, 12500 ],
+        "UpgradesRightCost": [ 400, 300, 3500, 12000 ],
+        "UpgradesLeftFlavorText": [
+            "Shots can pop through 4 layers of bloon - and can pop lead and frozen bloons.",
+            "Shots can pop through 7 layers of bloon!",
+            "Extreme accuracy and muzzle velocity cause up to 18 layers of bloon to be popped per shot - enough to destroy an entire Ceramic Bloon!",
+            "Bullets from this tower temporarily take out the engines of MOAB class bloons, disabling them for a short period of time."
+        ],
+        "UpgradesRightFlavorText": [
+            "Allows Sniper to shoot faster.",
+            "Allows Sniper to detect and shoot Camo bloons.",
+            "Allows Sniper to take multiple shots and attack 3x as fast.",
+            "Supply Drop Ability: Drops a crate full of cash."
+        ],
+        "UpgradesLeftSpritePaths": [
+            "Content/Assets/Towers/Upgrades/SniperMonkeyUpgrades/Left/1.png",
+            "Content/Assets/Towers/Upgrades/SniperMonkeyUpgrades/Left/2.png",
+            "Content/Assets/Towers/Upgrades/SniperMonkeyUpgrades/Left/3.png",
+            "Content/Assets/Towers/Upgrades/SniperMonkeyUpgrades/Left/4.png"
+        ],
+        "UpgradesRightSpritePaths": [
+            "Content/Assets/Towers/Upgrades/SniperMonkeyUpgrades/Right/1.png",
+            "Content/Assets/Towers/Upgrades/SniperMonkeyUpgrades/Right/2.png",
+            "Content/Assets/Towers/Upgrades/SniperMonkeyUpgrades/Right/3.png",
+            "Content/Assets/Towers/Upgrades/SniperMonkeyUpgrades/Right/4.png"
+        ],
+        // Upgrades
+        "SetUpgradesSniperMonkey": { "PrefabType": "Action" },
+
+        // Behavior
+        "FireProjectileAtClosestBloon": { "PrefabType": "Action" }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "<Bloon>WhiteBloon": {
+        "TextureFileName": "Content/Assets/BloonSprites/White.png",
+        "Rank": 6,
+        "Speed": 2.0,
+        "RBE": 11,
+        "BloonChildren": [
+            "PinkBloon"
+        ],
+        "NumberOfChildrenToSpawn": [
+            2
+        ],
+        "_BloonResistances_": [
+            "Freeze"
+        ]
+    }
+}

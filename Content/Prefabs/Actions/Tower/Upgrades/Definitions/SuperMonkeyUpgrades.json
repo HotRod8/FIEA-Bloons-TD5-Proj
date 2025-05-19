@@ -1,0 +1,78 @@
+{
+    // Path 1
+    "<ActionList>LaserBlasts": {
+        "RepeatCount": 0,
+        "<IncrementInt>pierce": {
+            "RepeatCount": 0,
+            "KeyToModify": "Pierce",
+            "IncrementAmount": 1
+        }
+        // Change damage type to shatter?
+    },
+    "<ActionList>PlasmaBlasts": {
+        "RepeatCount": 0,
+        "<IncrementInt>pierce": {
+            "RepeatCount": 0,
+            "KeyToModify": "Pierce",
+            "IncrementAmount": 1
+        },
+        "<MultiplyInt>firerate": {
+            "RepeatCount": 0,
+            "KeyToModify": "AttackSpeed",
+            "MultiplyFactor": 100
+        },
+        "<DivideInt>firerate": {
+            "RepeatCount": 0,
+            "KeyToModify": "AttackSpeed",
+            "Divisor": 125 // 25% faster
+        }
+        // Change damage type to normal?
+    },
+    "<ActionList>SunGod": {
+        "RepeatCount": 0,
+        "<Set>numProjectiles": {
+            "RepeatCount": 0,
+            "newProjectilCount": 3,
+            "Source": "newProjectileCount",
+            "Target": "NumProjectiles"
+        },
+        "<Set>pierce": {
+            "RepeatCount": 0,
+            "newPierce": 15,
+            "Source": "newPierce",
+            "Target": "Pierce"
+        }
+    },
+    "<ActionList>TempleOfTheMonkeyGod": {
+        "RepeatCount": 0
+    },
+
+    // Path 2
+    "<Increment>SuperRange": {
+        "RepeatCount": 0,
+        "KeyToModify": "Range",
+        "IncrementAmount": 40.0
+    },
+    "<Increment>EpicRange": {
+        "RepeatCount": 0,
+        "KeyToModify": "Range",
+        "IncrementAmount": 30.0
+    },
+    "<ActionList>RoboMonkey": {
+        "<IncrementInt>pierce": {
+            "RepeatCount": 0,
+            "KeyToModify": "Pierce",
+            "IncrementAmount": 2
+        },
+        // Set damage type to normal
+        "<Set>numProjectiles": {
+            "RepeatCount": 0,
+            "newProjectilCount": 2,
+            "Source": "newProjectileCount",
+            "Target": "NumProjectiles"
+        }
+    },
+    "<ActionList>TechnologicalTerror": {
+        "RepeatCount": 0
+    }
+}

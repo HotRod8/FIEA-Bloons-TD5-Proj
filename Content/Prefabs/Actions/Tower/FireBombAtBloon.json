@@ -1,0 +1,29 @@
+{
+    "<ActionList>FireBombAtBloon": {
+        // Needs an outer Delayed Action for attack speed
+        "<DelayedAction>": {
+            "DelayVar": "AttackSpeed",
+
+            "<ActionList>": {
+                "RepeatCount": 0,
+                "<DetermineClosestBloon>": {
+                    "RepeatCount": 0,
+                    "ReturnTarget": "CurrentTarget"
+                },
+                "<If>": {
+                    "RepeatCount": 0,
+                    "<NotEqual>": {
+                        "_LHS_": "CurrentTarget",
+                        "_RHS_": "NullPtr"
+                    },
+                    "<RotateClosestBloon>": {
+                        "RepeatCount": 0
+                    },
+                    "<ZFireBomb>": {
+                        "RepeatCount": 0
+                    }
+                }
+            }
+        }
+    }
+}

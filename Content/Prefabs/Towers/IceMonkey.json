@@ -1,0 +1,50 @@
+{
+    "<Tower>IceMonkey": {
+        "TextureFileName": "Content/Assets/ShopButtonUISprites/InGameSprites/ShopSprite6.png", // needs sprite still
+        "AttackSpeed": 2430,
+        "Range": 60.0,
+        "Pierce": -1, // this is for infinite, it can attack all towers in range
+        "Damage": 0,
+        "DamageTypes": [ "Freeze" ],
+
+        // Costs + Upgrade info
+        "TowerCost": 300,
+        "UpgradesLeftName": [ "Enhanced Freeze", "Snap Freeze", "Arctic Wind", "Viral Frost" ],
+        "UpgradesRightname": [ "Permafrost", "Deep Freeze", "Ice Shards", "Absolute Zero" ],
+        "UpgradesLeftCost": [ 225, 400, 6500, 6000 ],
+        "UpgradesRightCost": [ 100, 350, 2000, 2000 ],
+        "UpgradesLeftFlavorText": [
+            "This enhanced Ice Tower has a larger freeze area and freezes bloons for longer.",
+            "The tower freezes so fast the bloons pop once before freezing.",
+            "Super cold aura that slows all bloons that come near the tower. In addition the regular freeze effect of this tower has much larger area.",
+            "Bloons are frozen so cold that they freeze other bloons that come in contact with them, spreading the freeze like a virus."
+        ],
+        "UpgradesRightFlavorText": [
+            "Makes the bloons so cold that they move slowly even after thawing out.",
+            "Freezes 2 layers of bloons instead of 1.",
+            "Creates razor sharp pieces of ice on frozen bloons, that when popped, fly out and pop more nearby bloons.",
+            "Absolute Zero Ability: freezes the entire screen of bloons for 4 seconds. Does not affect MOAB-class bloons."
+        ],
+
+        "UpgradesLeftSpritePaths": [
+            "Content/Assets/Towers/Upgrades/IceMonkeyUpgrades/Left/1.png",
+            "Content/Assets/Towers/Upgrades/IceMonkeyUpgrades/Left/2.png",
+            "Content/Assets/Towers/Upgrades/IceMonkeyUpgrades/Left/3.png",
+            "Content/Assets/Towers/Upgrades/IceMonkeyUpgrades/Left/4.png"
+        ],
+        "UpgradesRightSpritePaths": [
+            "Content/Assets/Towers/Upgrades/IceMonkeyUpgrades/Right/1.png",
+            "Content/Assets/Towers/Upgrades/IceMonkeyUpgrades/Right/2.png",
+            "Content/Assets/Towers/Upgrades/IceMonkeyUpgrades/Right/3.png",
+            "Content/Assets/Towers/Upgrades/IceMonkeyUpgrades/Right/4.png"
+        ],
+
+        // Upgrades
+        "SetUpgradesIceMonkey": { "PrefabType": "Action" },
+
+        // Behavior
+        "FireAtClosestBloon": { "PrefabType": "Action" }
+
+
+    }
+}

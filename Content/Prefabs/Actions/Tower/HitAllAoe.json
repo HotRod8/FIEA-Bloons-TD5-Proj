@@ -1,0 +1,29 @@
+{
+    "<ActionList>HitAllAoe": {
+        // Needs an outer Delayed Action for attack speed
+        "<DelayedAction>": {
+            "DelayVar": "AttackSpeed",
+
+            "<ActionList>": {
+                "RepeatCount": 0,
+                "<DetermineClosestBloon>": { /* <-- IMPLEMENT AOE */
+                    "RepeatCount": 0,
+                    "ReturnTarget": "CurrentTarget"
+                },
+                "<If>": {
+                    "RepeatCount": 0,
+                    "<NotEqual>": {
+                        "_LHS_": "CurrentTarget",
+                        "_RHS_": "NullPtr"
+                    },
+                    "<RotateClosestBloon>": {   /* NO NEED*/
+                        "RepeatCount": 0
+                    },
+                    "<ZFireProjectile>": {
+                        "RepeatCount": 0
+                    }
+                }
+            }
+        }
+    }
+}
